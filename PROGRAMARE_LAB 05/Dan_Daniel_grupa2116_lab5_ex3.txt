@@ -1,0 +1,47 @@
+//3. Să se scrie un program care afişează valorile biţilor unei variabile de tip unsigned char
+aplicând succesiv operatorul de deplasare dreapta şi operatorul %. .//
+
+
+
+
+
+
+#define _CRT_NO_SECURE_WARNINGS
+
+#include <studio.h>
+#include <math.h>
+#include<stdlib.h>
+int main()
+{
+	int x, y;
+	float a, b, scad, sum, p, i;
+	printf("Introduceti 2 numere reale:/n");
+
+printf("a=");
+scanf_s(%f, &a);
+
+printf("b=");
+scanf_s("%f,  &b");
+
+sum= a+b
+print("Diferenta numerelor este %f iar suma rotunjita la intreg este: %d/n", sum, (int)sum);
+
+scad = a - b;
+printf("Diferenta numerelor este: %f iar diferenta rotunjita la intreg este: %d/n", scad, (int)scad);
+
+
+p = a * b;
+printf(" Produsul este: % iar produsul rotunjit este: %d/n", p, (int)p);
+
+i = a / b;
+printf("Catul numerelor este: %f iar catul rotunjit este: %d/n", i, (int)i);
+
+x = a - b;
+if (x > 0)
+printf("numarul %f este mai mare decat numarul %f", a, b);
+else printf("numarull %f este mai maire decat numarul %f", a, b);
+
+
+return 0;
+
+}

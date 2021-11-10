@@ -1,0 +1,33 @@
+//2. Să se scrie un program care citeşte lungimile laturilor unui triunghi (folosind variabile întregi) şi
+afişează aria triunghiului ca valoare reală.//
+
+
+
+#define _CRT_NO_SECURE_WARNINGS
+
+#include <studio.h>
+#include <math.h>
+int main()
+{
+	int x, y, z, p, aria;
+
+
+printf("x=");
+scanf_s(% i, &x);
+
+printf("y=");
+scanf_s("%i,  &y");
+
+print("z=");
+scanf_s("%i, &z");
+p = (x + y + z) / 2;
+
+
+printf("Semiperimetru triunghiului este egala cu: %i,%i,%i,%i/n", x, y, z, p);
+printf("p=");
+scanf_s(% i, &p);
+aria = sqrt(p * (p - x) * (p - y) * (p - z))
+printf("Aria triunghiului este egala cu: %i", aria);
+return 0;
+
+}

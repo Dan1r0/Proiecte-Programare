@@ -1,0 +1,33 @@
+//9. Citiți de la tastatura 2 numere întregi. Determinați aria cercului cu raza egală cu prima valoare
+citită și calculați aria dreptunghiului cu laturile egale cu valorile date. Afișați aria calculată specificând forma geometrică pentru care s-a făcut calculul. .//
+
+
+
+
+
+#define _CRT_NO_SECURE_WARNINGS
+
+#include <studio.h>
+#include <math.h>
+#include<stdlib.h>
+int main()
+{
+	int a, b, aria = 0;
+	float po = 3.14, aria;
+	printf("dati radianul pentru cerc:/n");
+	scanf("%d, &a");
+	aria = pi * a * a;
+
+	printf("aria cercului este:%f/n", aria);
+	printf("a=");
+	scanf("%d, &a");
+
+	printf("b=");
+	scanf("%d, &b");
+
+	aria = (a * b);
+
+	printf("Aria dreptunghiului este:%d/n", arie);
+
+
+}

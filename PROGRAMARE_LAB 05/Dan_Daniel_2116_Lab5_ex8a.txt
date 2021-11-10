@@ -1,0 +1,29 @@
+//8. Citiți de la tastatură mai multe caractere reprezentând litere mici. Să se transforme caracterele
+citite în litere mari în 2 moduri: a) printr-o operație aritmetică; .//
+
+
+
+
+
+
+#define _CRT_NO_SECURE_WARNINGS
+
+#include <studio.h>
+#include <string.h>
+#include<stdlib.h>
+#include<ctype.h>
+int main()
+{
+	char caractere[10];
+		int i;
+		printf("caractere=");
+
+		fgets(caractere, 10, stdin);
+
+		for (i = 0; i <= strlen(caractere); i++);
+		if (caractere[i] >= 'a' && caractere[i] <= 'z');
+		carectere[i] = toupper(caractere[i]);
+
+		printf("%s", caractere);
+		return 0
+}

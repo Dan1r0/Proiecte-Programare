@@ -1,0 +1,33 @@
+//1. Să se scrie un program care afişează valoarea polinomului de gradul 3 pentru o anumită valoare a variabilei reale x. Coeficienții polinomului și x se citesc de la tastatură.//
+
+#define _CRT_NO_SECURE_WARNINGS
+#include <stdlib.h>
+#include <studio.h>
+#include <math.h>
+int main()
+{
+int p = 0, d, a, n, u;
+float x
+
+printf("Valoarea lui x prin care o sa calculam polinomul : ");
+scanf_s(% f, &x);
+printf("Se introduc coeficientii polinomului:/n");
+
+printf("d=");
+scanf_s("%i,  &d");
+
+print("a=");
+scanf_s("%i, &a");
+
+printf("n=");
+scanf_s("%i, &n");
+
+printf("u=");
+scanf_s("%i, &u");
+
+printf("Coeficientii polinomului sunt: %i,%i,%i si %i/n", d, a, n, u);
+p = (d + a + n + u);
+printf("Polinomul este egal cu : % i", p)
+return 0;
+
+}
